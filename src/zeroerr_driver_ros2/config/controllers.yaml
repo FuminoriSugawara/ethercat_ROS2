@@ -36,8 +36,19 @@ velocity_controller:
   ros__parameters:
     joints:
       - joint_1
+    command_interfaces:
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
 
 effort_controller:
   ros__parameters:
     joints:
       - joint_1
+    command_interfaces:
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+      - effort

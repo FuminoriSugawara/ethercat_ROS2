@@ -34,7 +34,7 @@ def main(args=None):
     velocity_control_publisher = VelocityControlPublisher()
     
     print("Press 0-3 to change velocity, or 'q' to quit:")
-    print("0: 0, 1: 1000, 2: 2000, 3: 3000")
+    print("0: 0, 1: 100, 2: 200, 3: -100, 4: -200")
     
     while True:
         key = getch()

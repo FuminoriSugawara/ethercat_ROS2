@@ -1,0 +1,21 @@
+repositories:
+  can_analysis:
+    type: git
+    url: https://github.com/FuminoriSugawara/can_analysis.git
+    version: 2024.10.21-1
+  easycat_driver_ros2:
+    type: git
+    url: https://github.com/FuminoriSugawara/easycat_driver_ros2
+    version: 2024.10.30-1
+  ethercat_driver_ros2:
+    type: git
+    url: https://github.com/ICube-Robotics/ethercat_driver_ros2.git
+    version: humble
+  ros2-custom-controller-sample:
+    type: git
+    url: https://github.com/FuminoriSugawara/ros2-custom-controller-sample.git
+    version: 2024.10.30-1
+  ros2_teleop_sample:
+    type: git
+    url: https://github.com/FuminoriSugawara/ros2_teleop_sample.git
+    version: 2024.10.24-1

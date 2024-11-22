@@ -6,7 +6,7 @@ repositories:
   easycat_driver_ros2:
     type: git
     url: https://github.com/FuminoriSugawara/easycat_driver_ros2
-    version: 2024.11.21-1
+    version: 2024.11.22-1
   ethercat_driver_ros2:
     type: git
     url: https://github.com/ICube-Robotics/ethercat_driver_ros2.git
